@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macherjek - Crafting Websites that Drive Success</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: #333333;
+        }
+
+        .book-call {
+            border: 1px solid #333333;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .hero-content {
+            max-width: 50%;
+        }
+
+        .availability {
+            color: #333333;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .availability::after {
+            content: "";
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #4CAF50;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+
+        h1 {
+            font-size: 64px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            color: #666666;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .cta-button {
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .primary-cta {
+            background-color: #ffffff;
+            color: #333333;
+            border: 1px solid #333333;
+        }
+
+        .secondary-cta {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        .hero-image {
+            max-width: 50%;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .clients {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+        .client-logo {
+            max-width: 100px;
+            height: auto;
+            filter: grayscale(100%);
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+            }
+
+            .hero-content,
+            .hero-image {
+                max-width: 100%;
+            }
+
+            .clients {
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">MACHERJEK</div>
+            <nav>
+                <a href="#">Projects</a>
+                <a href="#">Pricing</a>
+                <a href="#" class="book-call">Book a Call ↗</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <p class="availability">Bookings available now</p>
+                    <h1>Crafting Websites that Drive Success</h1>
+                    <p>As a multi-skilled team, we create engaging digital products, platforms, and websites that
+                        attract customers and boost business success.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="cta-button primary-cta">View Plans & Pricing</a>
+                        <a href="#" class="cta-button secondary-cta">Book a call</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://placehold.co/600x400/e0e0e0/808080?text=Abstract+Shape" alt="Abstract shape">
+                </div>
+            </section>
+
+            <section class="clients">
+                <img src="https://placehold.co/100x50/ffffff/808080?text=Wexl+Trails" alt="Wexl Trails"
+                    class="client-logo">
+                <img src="https://placehold.co/100x50/ffffff/808080?text=OTS" alt="OTS" class="client-logo">
+                <img src="https://placehold.co/100x50/ffffff/808080?text=Antworks" alt="Antworks" class="client-logo">
+                <img src="https://placehold.co/100x50/ffffff/808080?text=Berndorf" alt="Berndorf" class="client-logo">
+                <img src="https://placehold.co/100x50/ffffff/808080?text=Niederösterreich" alt="Niederösterreich"
+                    class="client-logo">
+                <img src="https://placehold.co/100x50/ffffff/808080?text=Plus+Eco" alt="Plus Eco" class="client-logo">
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
